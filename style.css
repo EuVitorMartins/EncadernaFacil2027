@@ -4923,3 +4923,84 @@ body {
 
 
 }
+
+/* ===================================================
+   REDESIGN BLACK WEEK — SOBRESCRITAS ISOLADAS
+   Mantém os estilos e scripts das demais seções.
+   =================================================== */
+.hero-v2 {
+  --hero-pink:#bb3454; --hero-pink-dark:#912743;
+  background:radial-gradient(circle at 86% 27%,#f5d6df 0,transparent 38%),linear-gradient(135deg,#fffaf7 0%,#faedf0 100%);
+  padding-bottom:72px;
+}
+.hero-v2 .hero-v2-topbar {
+  background:linear-gradient(95deg,#251822,#64263e,#251822);
+  min-height:48px; margin-bottom:38px; box-shadow:0 7px 22px #2a17241c;
+}
+.hero-v2 .hero-v2-topbar span { font-size:clamp(9px,1.3vw,12px); letter-spacing:1px; }
+.hero-v2 .hero-v2-container {max-width:1100px; display:grid; grid-template-columns:1fr 1fr; column-gap:52px; align-items:center; text-align:left; }
+.hero-v2 .hero-v2-copy { grid-column:1; grid-row:1; max-width:none; margin:0; }
+.hero-v2 .hero-v2-kicker {font-size:11px;margin-bottom:20px;color:#a52e4d;}
+.hero-v2 .hero-v2-title { max-width:none; margin:0 0 19px; font-size:clamp(32px,3.4vw,48px); line-height:1.14; letter-spacing:-1.2px; }
+.hero-v2 .hero-v2-subtitle { margin:0;max-width:520px; font-size:15px;line-height:1.7; }
+.hero-v2 .hero-v2-highlights {display:flex;flex-wrap:wrap;gap:9px;margin-top:19px;}
+.hero-v2 .hero-v2-highlights span {font:600 11px 'Poppins',sans-serif; border:1px solid #e8cbd2; border-radius:30px; background:#fff9; padding:8px 11px; color:#6f3d4c; }
+.hero-v2 .hero-v2-image {grid-column:2; grid-row:1 / span 2;max-width:none;margin:0;display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:13px;align-items:center;}
+.hero-v2 .hero-v2-visual-main {background:#fff;border:1px solid #f3dce2;padding:10px;border-radius:24px;box-shadow:0 18px 45px #58283a24;transform:rotate(-2deg);}
+.hero-v2 .hero-v2-visual-main img {width:100%;height:auto;border-radius:15px;filter:none;}
+.hero-v2 .hero-v2-visual-side {display:flex;flex-direction:column;gap:11px;align-items:center;}
+.hero-v2 .hero-v2-visual-side img {width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;border:6px solid #fff;border-radius:17px;box-shadow:0 12px 27px #58283a24;filter:none;}
+.hero-v2 .hero-v2-visual-side span {background:#963450;color:#fff;border-radius:8px;padding:9px 7px;text-align:center;font:700 9px 'Poppins',sans-serif;letter-spacing:.4px;line-height:1.4;}
+.hero-v2 .hero-v2-purchase {grid-column:1;grid-row:2;align-self:start;margin-top:23px;}
+.hero-v2 .hero-v2-pricing {align-items:flex-start;margin:0 0 15px;}
+.hero-v2 .hero-v2-price {justify-content:flex-start;}
+.hero-v2 .hero-v2-integer {font-size:63px;}
+.hero-v2 .hero-v2-button {max-width:440px;background:#bd3656;border-color:#bd3656;box-shadow:0 12px 27px #bd36563b;}
+.hero-v2 .hero-v2-note {margin:12px 0 0;}
+.offer-grid-black {align-items:stretch;gap:24px;}
+.offer-grid-black .offer-card {display:flex; flex-direction:column;padding:40px 30px 31px;border-radius:25px; box-shadow:0 16px 36px #4e27300b;}
+.offer-grid-black .offer-card.premium {transform:none;border:2px solid #c53d5e;box-shadow:0 22px 54px #b83e612c;}
+.offer-grid-black .offer-card h3 {font-size:clamp(23px,2.3vw,30px);margin:13px 0 8px;}
+.offer-grid-black .offer-summary {min-height:40px;color:#76676b;font:400 13px/1.5 'Poppins',sans-serif;margin:0 0 12px;}
+.offer-grid-black .old-price {font-size:14px;margin-top:4px;}
+.offer-grid-black .price {font-size:50px;line-height:1.2;}
+.offer-grid-black .premium-top {white-space:nowrap;font-size:11px;padding:9px 22px;}
+.offer-grid-black .extra-value {border-radius:12px;margin:0 0 20px;padding:12px 14px;font-size:13px;}
+.offer-grid-black .offer-checklist {margin:27px 0 20px;display:flex;flex-direction:column;gap:2px;flex:1;}
+.offer-grid-black .offer-checklist li {display:flex;gap:10px;align-items:flex-start;margin:0;padding:10px 0;border-bottom:1px solid #f1e9ec;font-size:13px;line-height:1.5;}
+.offer-grid-black .offer-mark {display:inline-flex;flex:0 0 23px;width:23px;height:23px;align-items:center;justify-content:center;border-radius:50%;background:#e8f6ed;color:#21854f;font-size:15px;font-weight:800;}
+.offer-grid-black .not-included {color:#999!important;}
+.offer-grid-black .not-included .offer-mark {background:#fff0f1;color:#c44b5b;}
+.offer-grid-black .access {font-size:13px;line-height:1.8;border-radius:13px;}
+.offer-grid-black .offer-button {margin-top:auto;border-radius:12px;min-height:55px;align-items:center;text-align:center;font-size:13px;box-shadow:0 8px 22px #b6415720;}
+@media(max-width:900px){
+ .hero-v2 .hero-v2-container {max-width:650px;display:flex;flex-direction:column;text-align:center;gap:0;}
+ .hero-v2 .hero-v2-copy{margin-bottom:22px;}
+ .hero-v2 .hero-v2-title,.hero-v2 .hero-v2-subtitle {margin-left:auto;margin-right:auto;}
+ .hero-v2 .hero-v2-highlights {justify-content:center;}
+ .hero-v2 .hero-v2-image {width:100%;max-width:530px;margin:0 auto 22px;gap:10px;}
+ .hero-v2 .hero-v2-purchase {margin:0 auto;width:100%;}
+ .hero-v2 .hero-v2-pricing {align-items:center;}
+ .hero-v2 .hero-v2-price {justify-content:center;}
+ .hero-v2 .hero-v2-note {text-align:center;}
+ .hero-v2 .hero-v2-button {margin:0 auto;}
+}
+@media(max-width:480px){
+ .hero-v2 {padding-bottom:48px;}
+ .hero-v2 .hero-v2-topbar {margin-bottom:27px;padding:11px 10px;}
+ .hero-v2 .hero-v2-topbar span {font-size:9px;letter-spacing:.3px;}
+ .hero-v2 .hero-v2-title {font-size:clamp(27px,7.6vw,34px);line-height:1.18;letter-spacing:-.6px;}
+ .hero-v2 .hero-v2-subtitle {font-size:13px;}
+ .hero-v2 .hero-v2-highlights {gap:6px;}
+ .hero-v2 .hero-v2-highlights span {padding:7px 9px;font-size:9px;}
+ .hero-v2 .hero-v2-visual-main {padding:6px;border-radius:16px;}
+ .hero-v2 .hero-v2-visual-main img {border-radius:11px;}
+ .hero-v2 .hero-v2-visual-side {gap:7px;}
+ .hero-v2 .hero-v2-visual-side img {border-width:4px;border-radius:12px;}
+ .hero-v2 .hero-v2-visual-side span {font-size:7px;padding:6px 4px;}
+ .hero-v2 .hero-v2-image {margin-bottom:10px;}
+ .hero-v2 .hero-v2-integer {font-size:59px;}
+ .offer-grid-black .offer-card {padding:37px 21px 24px;}
+ .offer-grid-black .offer-checklist li {font-size:12px;}
+ .offer-grid-black .premium-top {font-size:10px;}
+}
